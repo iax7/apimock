@@ -1,0 +1,125 @@
+{
+  "categories": [
+    { "id": 1, "name": "Electronics" },
+    { "id": 2, "name": "Food" },
+    { "id": 3, "name": "Snacks" },
+    { "id": 4, "name": "Music" }
+  ],
+  "products": [
+    {
+      "id": 11,
+      "name": "iPhone 11 Pro",
+      "description": "Super iPhone Pro Plus Ultra",
+      "image_url": "https://square-production.s3.amazonaws.com/files/08f04a88a5dc11e7d0715c5186c92a076c4d0704/original.jpeg",
+      "image_updated_at": "2020-08-24T21:11:23.457Z",
+      "categories": [1],
+      "variants": [
+        {
+          "id": 111,
+          "product_id": 11,
+          "sku": "IPHONE11-128",
+          "upc": null,
+          "sort_order": 3,
+          "price": 599,
+          "inventory_level": 12,
+          "option_values": [
+            { "label": "128 GB", "option_display_name": "Default" }
+          ],
+          "track_inventory": true
+        },
+        {
+          "id": 112,
+          "product_id": 11,
+          "sku": "IPHONE11-64+",
+          "upc": null,
+          "sort_order": 4,
+          "price": 499,
+          "inventory_level": 6,
+          "option_values": [
+            { "label": "64 GB", "option_display_name": "Default" }
+          ],
+          "track_inventory": true
+        },
+        {
+          "id": 113,
+          "product_id": 11,
+          "sku": "IPHONE11-32",
+          "upc": null,
+          "sort_order": 5,
+          "price": 409,
+          "inventory_level": 3,
+          "option_values": [
+            { "label": "32 GB", "option_display_name": "Default" }
+          ],
+          "track_inventory": true
+        },
+        {
+          "id": 114,
+          "product_id": 11,
+          "sku": "IPHONE11-16",
+          "upc": null,
+          "sort_order": 6,
+          "price": 299,
+          "inventory_level": 7,
+          "option_values": [
+            { "label": "16 GB", "option_display_name": "Default" }
+          ],
+          "track_inventory": true
+        }
+      ],
+      "price": 299
+    },
+    {
+      "id": 22,
+      "name": "Nintendo Switch",
+      "description": "Play the new mario game!",
+      "image_url": "https://square-production.s3.amazonaws.com/files/56d9121bfdf38ca7fd36fec9bbe4a5b7f2d883b9/original.jpeg",
+      "image_updated_at": "2019-12-09T20:50:08.526Z",
+      "categories": [1],
+      "variants": [
+        {
+          "id": 221,
+          "product_id": 22,
+          "sku": "NIN-SWITCH",
+          "upc": null,
+          "sort_order": 0,
+          "price": 399,
+          "inventory_level": 7,
+          "option_values": [
+            { "label": "Regular", "option_display_name": "Default" }
+          ],
+          "track_inventory": true
+        }
+      ],
+      "price": 399,
+      "sku": "NIN-SWITCH",
+      "upc": null
+    },
+    {
+      "id": 33,
+      "name": "Pizza",
+      "description": "we have always time for pizza",
+      "image_url": "https://square-production.s3.amazonaws.com/files/510bf3388c37739160afde65b3ce9701da099af0/original.jpeg",
+      "image_updated_at": "2020-01-06T20:05:59.327Z",
+      "categories": [2],
+      "variants": [
+        {
+          "id": 331,
+          "product_id": 33,
+          "sku": "PIZZA-TIME",
+          "upc": null,
+          "sort_order": 0,
+          "price": 9.99,
+          "inventory_level": 7,
+          "option_values": [
+            { "label": "Regular", "option_display_name": "Default" }
+          ],
+          "track_inventory": true
+        }
+      ],
+      "price": 9.99,
+      "sku": "PIZZA-TIME",
+      "upc": null
+    }
+  ]
+}
